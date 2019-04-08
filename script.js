@@ -10,7 +10,9 @@ i= document.getElementById("light9");
 function opaque(el){
 	el.classList.add("opaque");
 } 
-
+function regular(el){
+	el.classList.remove("opaque");
+} 
 function checkColors(el){
 if (a.classList.contains("opaque") && b.classList.contains("opaque") && c.classList.contains("opaque") &&  d.classList.contains("opaque") && e.classList.contains("opaque") && f.classList.contains("opaque") && g.classList.contains("opaque") && h.classList.contains("opaque") && i.classList.contains("opaque")){
 		console.log("All lights green!");
